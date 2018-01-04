@@ -6,6 +6,22 @@ robot and code the funcionality you desire.
 
 ## System Requirements
 
+Hardware: Raspberry Pi 3
+Operating System: Raspian Stretch
+
+Install dependencies:
+
+Node JS
+```console
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+ffmpeg - if you have an onboard camera
+```console
+sudo apt-get install ffmpeg
+```
+
 ## Install
 
 Browse to brainyant.com/newrobot and add a new robot. You can see it listed in "My Robots" list.
@@ -26,7 +42,6 @@ var brain = require("brainyant-rpi");
 brain = new brain.Brain();
 
 brain.userCommand.subscribe(function(command){
-
   // command is a JSON Object with the structure:
   // command {
   //   fwd:   <forward-command>; // 0-100
