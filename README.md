@@ -29,7 +29,8 @@ sudo apt-get install ffmpeg
 
 ## Setup Your Robot
 
-Browse to [brainyant.com](https://brainyant.com), create an account and add a new robot.
+Browse to [brainyant.com](https://brainyant.com), create an account and add a new robot. Remember to
+add a video stream for the robot;
 Connect to your RPi, open a browser and login to your account in brainyant.com. Go to the newly
 added robot and press the "Download Auth File" button. This will save auth.json that contains your
 robot credentials. Create a separate folder and save it on the disk.
