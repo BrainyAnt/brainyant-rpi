@@ -16,11 +16,14 @@ Node JS
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+Use Raspicam for broadcasting video
 
-ffmpeg - if you have an onboard camera
+ffmpeg
 ```console
 sudo apt-get install ffmpeg
 ```
+
+
 
 ## Install
 
