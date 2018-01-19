@@ -1,6 +1,6 @@
 {
   "name": "brainyant-rpi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "BrainyAnt robot control library for Raspberry Pi",
   "main": "brainyant-rpi.js",
   "author": "alexandru.but@brainyant.com",
