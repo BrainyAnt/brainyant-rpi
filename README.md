@@ -42,6 +42,13 @@ time.
 $ npm install brainyant-rpi
 ```
 
+Enable raspicam
+
+```console
+$ sudo raspi-config
+```
+Navigate to 'Interface Options'>'Camera' and enable camera. Reboot device.
+
 You are ready to start adding functionality to your robot. Create a new js file, import brainyant-rpi
 library and start adding functions. You can subscribe to the commands taken from the web app which
 the users are sending. 
