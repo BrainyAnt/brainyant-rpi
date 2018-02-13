@@ -95,7 +95,7 @@ brain.registerSensor('Distance', function() {
   var dummyValue=1;
   return dummyValue;
 })
-``
+```
 
 Save the file using Ctrl+x
 
