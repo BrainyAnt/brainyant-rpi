@@ -53,9 +53,8 @@ added robot and press the "Download Auth File" button. This will save auth.json 
 robot credentials. Save it to the forlder you just created: myRobot.
 
 Follow the visual instructions:
-![Image missing](img/new.png?raw=true)
-![Image missing](img/edit.png?raw=true)
-![Image missing](img/auth.png?raw=true)
+
+![Image missing](img/web-step-by-step.png?raw=true)
 
 Install brainyant-rpi package. This will take some time.
 
