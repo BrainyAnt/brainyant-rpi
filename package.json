@@ -8,6 +8,7 @@
   "dependencies": {
     "firebase": "^4.7.0",
     "google-cloud": "^0.57.0",
+    "is-running": "^2.1.0",
     "johnny-five": "^0.12.0",
     "promise": "^7.1.1",
     "rpio": "^0.9.20",
