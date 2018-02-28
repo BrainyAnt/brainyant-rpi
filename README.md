@@ -52,6 +52,11 @@ Connect to your RPi, open a browser and login to your account in brainyant.com. 
 added robot and press the "Download Auth File" button. This will save auth.json that contains your
 robot credentials. Save it to the forlder you just created: myRobot.
 
+Follow the visual instructions:
+![Image missing](img/new.png?raw=true)
+![Image missing](img/edit.png?raw=true)
+![Image missing](img/auth.png?raw=true)
+
 Install brainyant-rpi package. This will take some time.
 
 ```console
@@ -72,7 +77,6 @@ nano myRobot.js
 ```js
 var brain = require("brainyant-rpi");
 brain = new brain.Brain();
-
 // Handle user command
 // This function will get trigered each time
 // the use in control touches a control key or button
@@ -84,11 +88,9 @@ brain.userCommand.subscribe(function(command){
   //   left:  <left-command>;    // 0-100
   //   right: <right-command>;   // 0-100
   // }
-
   // Your code goes here
   // ...
 }) 
-
 // Register a sensor
 brain.registerSensor('Distance', function() {
   //return data from your sensor
