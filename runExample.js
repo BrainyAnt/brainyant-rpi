@@ -19,6 +19,6 @@ brain.registerSensor('Distance', function() {
     return dist++;
   })
 
-brain.registerCommand('front', function(data) {
+brain.registerCommand('front', 'W', 'press', function(data) {
     board.runRobot(255, 255, data);
 })
