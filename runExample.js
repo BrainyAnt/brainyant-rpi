@@ -20,5 +20,13 @@ brain.registerSensor('Distance', function() {
   })
 
 brain.registerCommand('front', 'W', 'press', function(data) {
-    board.runRobot(255, 255, data);
+    if (data == 0) {
+        console.log("STOP");
+        board.movement.runRobot(0, 0, 0);    
+    }
+    else {
+        console.log("FATA: "+ data);
+        board.movement.runRobot(0, 0, data);
+    }
+    
 })
